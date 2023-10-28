@@ -1,7 +1,6 @@
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin-top: 130px;
-  margin-left: 520px;
   background-image: url(image/ppp.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -24,6 +23,8 @@ ul {
   font-size: 40px;
   color: white;
   font-weight: 800;
+  background: black;
+  padding: 10px;
 }
 
 .square {
@@ -85,6 +86,10 @@ ul {
 .game {
   display: flex;
   flex-direction: row;
+  width: 500px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .game-info {
