@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Home from './Home';
 
 function Square(props) {
     return (
@@ -108,24 +107,18 @@ class Game extends React.Component {
                 <div className="game-board">
                     <Board />
                 </div>
-                {/* <div className="game-info">
-                    <div> status </div>
-                    <ol> TODO </ol>
-                </div> */}
+                <div className="game-info">
+                    <div>{/* status */}</div>
+                    <ol>{/* TODO */}</ol>
+                </div>
             </div>
         );
     }
 }
 
-
 // ========================================
 
 ReactDOM.render(
-    <>
-    <Home/>
-      <Game />
-    
-    </>
-  ,
+    <Game />,
     document.getElementById('root')
 );
